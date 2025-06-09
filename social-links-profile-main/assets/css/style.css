@@ -16,13 +16,13 @@ body {
   background-color: hsl(0, 0%, 8%);
   display: flex;
   align-items: center;
+  padding: 1rem;
   justify-content: center;
 }
 
 .social-card {
   background-color: hsl(0, 0%, 12%);
-  height: 80%;
-  width: 95%;
+  max-width: 500px;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -77,12 +77,4 @@ body {
 .links-card a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
-}
-
-
-@media (min-width:1440px){
-    .social-card{
-        width: 400px;
-        height: 70%;
-    }
 }
